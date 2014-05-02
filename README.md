@@ -1,13 +1,14 @@
 crawler
 =======
-Scrapy based crawler: given a start URL it spreads around it in a BFS fasion until max_depth.
+Scrapy based crawler: given a start URL it spreads to the pages at most <max_depth> distance from it in BFS fashion.
 
 It is run by the following command:
 ```
 scrapy crawl bfs -a start_urls=http://en.wikipedia.org/wiki/Main_Page -a max_depth=1 -a output_file=edges
-```
+```     
 
 The output consists of edges between visited URLs in the format:
+
 source|destination|text which contained the link
 
 This input is created for testing the methods for web link analysis described in:
