@@ -11,8 +11,8 @@ The output consists of edges between visited URLs in the format:
 ```
 source|destination|text which contained the link
 ```
-
-
+<br>
+<br>
 This crawler is created for testing the methods for web link analysis described in:<br>
 Tamara G. Kolda, Brett W. Bader, Joseph P. Kenny: Higher-Order Web Link Analysis Using Multilinear Algebra
 (http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=01565685&tag=1)
