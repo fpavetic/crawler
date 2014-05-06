@@ -65,4 +65,4 @@ class BfsSpider(CrawlSpider):
                 self.depth_lock.release()
 
                 if should_spread == True:
-                    yield Request(url=link.url, dont_filter=True)
+                    yield Request(url=link.url)
